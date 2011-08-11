@@ -1,0 +1,7 @@
+:fizz 1+ "fizz " print ;
+:buzz 1+ "buzz " print ;
+:fizzbuzz 1+ "fizzbuzz " print ;
+:n 1+ dup . ;
+:bange n n fizz n buzz fizz n n fizz buzz ;
+:bang bange n fizz n n fizzbuzz ;
+:main 0 bang bang bang bang bang bang bange drop cr bye ;

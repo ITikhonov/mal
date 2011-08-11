@@ -1,0 +1,6 @@
+
+
+: bi >r over swap execute swap r> execute ;
+
+: fib [  ] 0 if=?; [  ] 1 if=?; [ 1 - fib ] [ 2 - fib ] bi + ;
+
